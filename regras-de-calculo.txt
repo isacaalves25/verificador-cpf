@@ -1,0 +1,42 @@
+exemplo de CPF: 746.824.890-70
+
+PRIMEIRO DIGITO:
+Colete a soma dos 9 primeiros dígitos do cpf multiplicando
+cada um dos valores por uma contagem regressiva começando em 10
+
+exemplo:
+    10  9  8  7  6  5  4  3  2
+*   7   4  6  8  2  4  8  9  0
+=   70 36 48 56 12 20 32 27  0
+
+Somar todos os resultados:
+70 + 36 + 48 + 56 + 12 + 20 +32 +27 + 0 = 301
+
+Multiplicar o resultado anterior por 10
+301 * 10 = 3010
+
+Obter o resto da divisão da conta anterior por 11
+3010 % 11 = 7
+
+Se o resultado anterior for maior que 9:
+  o resultado é 0
+Contrario disso:
+  resultado é o próprio número
+
+SEGUNDO DIGITO:
+colete a soma dos 9 primeiros digitos do cpf, MAIS O PRIMEIRO DIGITO,
+multiplicando cada um dos valores por uma contagem regressiva começando por 11
+
+exemplo:
+    11 10  9  8  7  6  5  4  3  2
+*   7   4  6  8  2  4  8  9  0  (7) --> primeiro digito
+=   77 40 54 64 14 24 40 36 0 14
+
+soma de todos os resultados =  363
+multiplicar por 10 = 3630
+obter o resto por 11 = 0
+
+Se o resultado anterior for maior que 9:
+  o resultado é 0
+Contrario disso:
+  resultado é o próprio número
